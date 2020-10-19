@@ -1,0 +1,219 @@
+/* Default styles
+ =================================================== */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    width: 100%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header content
+ =================================================== */
+
+
+.header-title {
+    margin-bottom: 30px;
+    padding-top: 107px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #212121;
+}
+
+.line {
+    width: 64px;
+    height: 2px;
+    margin: 0 auto 30px;
+    background: #E72424;
+    border: none;
+}
+
+.subtitle {
+    padding-bottom: 40px;
+    color: #86878B;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Main content
+ =================================================== */
+
+main {
+    padding: 40px 0 107px;
+    font-size: 0;
+}
+
+.card {
+    display: inline-block;
+    width: 350px;
+    margin: 0 16px;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 29px;
+    border: 1px solid #E72424;
+    border-radius: 50%;
+}
+
+.card-title {
+    margin-bottom: 29px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+}
+
+.icon--lamp {
+    background: url(../img/lamp.png) no-repeat center;
+}
+
+.icon--keyboard {
+    background: url(../img/keyboard.png) no-repeat center;
+}
+
+.icon--lightning {
+    background: url(../img/lightning.png) no-repeat center;
+}
+
+/* Section content
+ =================================================== */
+
+.section {
+    margin: 0 auto;
+    width: 1400px;
+    height: 326px;
+    left: 0px;
+    top: -1px;
+
+    background: url(../img/background.png) no-repeat center;
+}
+
+.mask {
+    margin: 0 auto;
+    width: 1400px;
+    height: 326px;
+    left: 0px;
+    top: -1px;
+
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.btn {
+    display: inline-block;
+    margin: 0 auto;
+    width: 135px;
+    height: 42px;
+    margin-top: 30px;
+    border: 1px solid #FFFFFF;
+    color:  #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    background: none;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.section-title {
+    margin: 0 auto;
+    height: 40px;
+    left: 476px;
+    top: 75px;
+    padding: 76px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.section-line {
+    margin: 0 auto;
+    width: 64px;
+    height: 2px;
+    left: 668px;
+    top: 163px;
+    
+    border: 1px solid #FFFFFF;
+
+}
+
+.section-text {
+    margin: 0 auto;
+    width: 779px;
+    height: 20px;
+    left: 310px;
+    top: 195px;
+    margin-top: 30px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.80);
+}
+
+/* Footer content
+ =================================================== */
+
+.footer {
+    margin: 0 auto;
+    width: 1400px;
+    height: 101px;
+    left: 0px;
+    top: 920px;
+
+
+    background: #000000;
+}
+
+.signature {
+    margin: 0 auto;
+    width: 130px;
+    height: 15px;
+    left: 635px;
+    top: 71px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 18px;
+    
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.social-icons {
+    margin: 0 auto;
+    width: 317px;
+    height: 23px;
+    left: 541px;
+    top: 30px;
+    padding-top: 30px;
+    
+    /* background: url(../img/social-icons.png);  */
+}
+
